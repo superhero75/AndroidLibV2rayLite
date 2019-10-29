@@ -28,7 +28,7 @@ downloadGoMobile:
 
 BuildMobile:
 	gomobile init
-	env GO111MODULE=off gomobile bind -v -ldflags='-s -w' github.com/2dust/AndroidLibV2rayLite
+	env GO111MODULE=off gomobile bind -v -ldflags='-s -w' github.com/superhero75/AndroidLibV2rayLite
 
 all: asset pb fetchDep
 	@echo DONE
